@@ -24,3 +24,5 @@ vars:
     requested_reviewer_history: "{{ source('github', 'requested_reviewer_history') }}"
     team: "{{ source('github', 'team') }}"
     user: "{{ source('github', 'user') }}"
+## added UCSC
+    milestone: "{{ source('github', 'milestone') }}"    
