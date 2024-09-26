@@ -14,8 +14,8 @@ with milestone as (
         */
             {{
             fivetran_utils.fill_staging_columns(
-                source_columns=adapter.get_columns_in_relation(ref('stg_github__issue_tmp')),
-                staging_columns=get_issue_columns()
+                source_columns=adapter.get_columns_in_relation(ref('stg_github__milestone_tmp')),
+                staging_columns=get_milestone_columns()
             )
         }}
 
