@@ -38,7 +38,7 @@ with milestone as (
         creator_id,
         _fivetran_synced
 
-    from macros
+    from macro
 
 )
 
