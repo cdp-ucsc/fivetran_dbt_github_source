@@ -9,7 +9,7 @@
     {"name": "title", "datatype": dbt.type_string()},
     {"name": "description", "datatype": dbt.type_string()},
     {"name": "is_deleted", "datatype": "boolean"},
-    {"name": "cloqsed_at", "datatype": dbt.type_timestamp()},
+    {"name": "closed_at", "datatype": dbt.type_timestamp()},
     {"name": "due_on", "datatype": dbt.type_timestamp()},
     {"name": "repository_id", "datatype": dbt.type_int()},                
     {"name": "creator_id", "datatype": dbt.type_int()},
