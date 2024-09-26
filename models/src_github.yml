@@ -219,3 +219,7 @@ sources:
             description: The name of the user
           - name: company
             description: The  company of the user.
+
+      - name: milestone
+        identifier:  "{{ var('github_milestone_identifier', 'milestone')}}"
+        description: Table representing github milestones.
